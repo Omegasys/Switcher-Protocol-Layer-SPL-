@@ -1,0 +1,20 @@
+[ai]
+enabled = true
+
+[policy]
+latency_weight = 0.5
+congestion_weight = 0.3
+loss_weight = 0.2
+
+[reinforcement]
+learning_rate = 0.1
+discount_factor = 0.9
+epsilon = 0.2
+
+[prediction]
+window_size = 20
+smoothing_factor = 0.6
+
+[anomaly_detection]
+threshold = 0.75
+baseline_samples = 50
